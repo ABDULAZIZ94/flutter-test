@@ -1,0 +1,17 @@
+#android home
+export ANDROID_HOME=/usr/lib/Android
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/tools/bin:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+
+#android sdk root
+export ANDROID_SDK_ROOT=/usr/lib/Android
+export PATH=$ANDROID_SDK_ROOT:$PATH
+
+#flutter
+export FLUTTER_HOME=/usr/lib/flutter
+export PATH=$FLUTTER_HOME/bin:$PATH
+
+#gradle
+export GRADLE_HOME=/opt/gradle/gradle-5.6.2
+export PATH=$GRADLE_HOME/bin:$PATH
