@@ -15,7 +15,7 @@ class Product {
             "Pixel", 
             "Pixel is the most featureful phone ever", 
             800, 
-            "pixel.png"
+            "pixel.jpg"
          )
       );
       items.add(
@@ -23,7 +23,7 @@ class Product {
             "Laptop", 
             "Laptop is most productive development tool", 
             2000, 
-            "laptop.png"
+            "laptop.jpg"
          )
       ); 
       items.add(
@@ -31,7 +31,7 @@ class Product {
             "Tablet", 
             "Tablet is the most useful device ever for meeting", 
             1500, 
-            "tablet.png"
+            "tablet.jpg"
          )
       ); 
       items.add(
@@ -39,7 +39,7 @@ class Product {
             "Pendrive", 
             "iPhone is the stylist phone ever", 
             100, 
-            "pendrive.png"
+            "pendrive.jpg"
          )
       ); 
       items.add(
@@ -47,7 +47,7 @@ class Product {
             "Floppy Drive", 
             "iPhone is the stylist phone ever", 
             20, 
-            "floppydisk.png"
+            "floppydisk.jpg"
          )
       ); 
       items.add(
@@ -55,7 +55,7 @@ class Product {
             "iPhone", 
             "iPhone is the stylist phone ever", 
             1000, 
-            "iphone.png"
+            "iphone.jpg"
          )
       ); 
       return items; 
