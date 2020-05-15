@@ -66,3 +66,8 @@ A new Flutter project.
 # run flutter 
     flutter run -d chrome --web-port 80
     flutter run -d web-server --web-hostname 0.0.0.0 --web-port 80
+# craete avd
+avdmanager create avd -n Android29 -k "system-images;android-29;google_apis;x86_64"
+avdmanager -s create avd -n pixel -k "system-images;android-29;google_apis;x86_64"
+avdmanager list
+flutter emulator --launch pixel
