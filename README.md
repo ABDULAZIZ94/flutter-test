@@ -66,3 +66,8 @@ A new Flutter project.
 # run flutter 
     flutter run -d chrome --web-port 80
     flutter run -d web-server --web-hostname 0.0.0.0 --web-port 80
+
+# start json web server
+
+    http-server . -p 8000 
+
