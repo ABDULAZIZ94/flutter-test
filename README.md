@@ -57,6 +57,9 @@ A new Flutter project.
 
     sudo apt install ./google-chrome-stable_current_amd64.deb
 
+#  Use CAP_NET_BIND_SERVICE to grant low-numbered port access to a process
+    sudo setcap CAP_NET_BIND_SERVICE=+eip /path/to/binary
+
 # enable all port run wihout root
 # save configuration permanently    
     echo 'net.ipv4.ip_unprivileged_port_start=0' > /etc/sysctl.d/50-unprivileged-ports.conf
