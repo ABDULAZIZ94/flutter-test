@@ -43,3 +43,22 @@ A new Flutter project.
     $ sdkmanager "patcher;v4"
     $ sdkmanager "emulator"
     $ sdkmanager "build-tools;29.0.2"
+
+# upgrading to enable web
+
+    flutter channel beta
+    flutter upgrade
+
+    flutter config --enable-web
+
+# install google chrome at cloud
+
+    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+    sudo apt install ./google-chrome-stable_current_amd64.deb
+    
+# enable all port run wihout root
+# save configuration permanently
+echo 'net.ipv4.ip_unprivileged_port_start=0' > /etc/sysctl.d/50-unprivileged-ports.conf
+# apply conf
+sysctl --system
