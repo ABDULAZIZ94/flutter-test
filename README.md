@@ -56,9 +56,13 @@ A new Flutter project.
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
     sudo apt install ./google-chrome-stable_current_amd64.deb
-    
+
 # enable all port run wihout root
-# save configuration permanently
-echo 'net.ipv4.ip_unprivileged_port_start=0' > /etc/sysctl.d/50-unprivileged-ports.conf
+# save configuration permanently    
+    echo 'net.ipv4.ip_unprivileged_port_start=0' > /etc/sysctl.d/50-unprivileged-ports.conf
 # apply conf
-sysctl --system
+    sysctl --system
+
+# run flutter 
+    flutter run -d chrome --web-port 80
+    flutter run -d web-server --web-hostname 0.0.0.0 --web-port 80
